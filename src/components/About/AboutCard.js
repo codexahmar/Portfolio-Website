@@ -8,24 +8,59 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Ahmaryar Khan</span> from{" "}
-            <span className="purple">Kohat, Pakistan.</span>
-            <br />
-            I’m a passionate <span className="purple">
-              Flutter Developer
-            </span>{" "}
-            and
-            <span className="purple"> MERN Stack Developer</span>, helping
-            clients build modern mobile and web applications.
-            <br />
-            I work as a freelancer and love transforming ideas into functional
-            digital products.
-            <br />I also hold a BSCS degree from{" "}
-            <span className="purple">(KUST)</span>.
+            Hi, I'm <span className="purple">Ahmaryar Khan</span> — a dedicated
+            freelance{" "}
+            <span className="purple">Flutter & MERN Stack Developer</span> based
+            in <span className="purple">Kohat, Pakistan</span>.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I help businesses, startups, and individuals bring their ideas to
+            life through clean, scalable, and high-performance mobile and web
+            applications.
+            <br />
+            <br />
+            With hands-on experience across both iOS and Android platforms, I
+            specialize in delivering modern, user-friendly solutions that are
+            built to perform and grow. From launching apps from scratch to
+            improving existing ones — I'm here to make your project a success.
+            <br />
+            <br />
+            <strong>Here’s what I offer:</strong>
           </p>
+
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> Cross-platform mobile apps using Flutter
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Full-stack web development with MERN (MongoDB,
+              Express, React, Node.js)
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Advanced state management (Provider, GetX)
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Firebase, Stripe, Google Maps & More...
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Custom UI/UX, smooth animations & reusable
+              widgets
+            </li>
+          </ul>
+
+          <p style={{ textAlign: "justify" }}>
+            I hold a BSCS degree from <span className="purple">(KUST)</span>,
+            and I’m constantly exploring the latest in mobile and web
+            technologies to keep my work ahead of the curve.
+            <br />
+            <br />
+            If you're looking for a reliable developer who genuinely cares about
+            quality and collaboration — let’s build something amazing together!
+            <br />
+            <br />
+            <strong>When I’m not coding, I enjoy:</strong>
+          </p>
+
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
@@ -34,12 +69,13 @@ function AboutCard() {
               <ImPointRight /> Learning New Skills
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Traveling & Exploring Emerging Tech
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"
+            "Strive to build things that make a difference — both in code and in
+            impact."
           </p>
           <footer className="blockquote-footer">Ahmar</footer>
         </blockquote>
@@ -47,7 +83,5 @@ function AboutCard() {
     </Card>
   );
 }
-
-
 
 export default AboutCard;
